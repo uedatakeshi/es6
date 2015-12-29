@@ -11,8 +11,8 @@ $(function () {
 
 var OneForm = {
     handleClick: function handleClick(form, mode) {
-        self.setMode(mode);
-        self.doSubmit(form);
+        this.setMode(mode);
+        this.doSubmit(form);
     },
     setMode: function setMode(mode) {
         if (mode == 'confirm') {

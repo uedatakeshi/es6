@@ -8,22 +8,22 @@ $(function() {
 });
 
 var OneForm = {
-    handleClick: (form, mode) => {
+    handleClick(form, mode) {
         this.setMode(mode);
         this.doSubmit(form);
     },
-    setMode: (mode) => {
+    setMode(mode) {
         if (mode == 'confirm') {
             $('input[name=mode]').val('confirm');
         }
     },
-    doSubmit: (form) => {
+    doSubmit(form) {
         form.submit();
     }
 };
 
 var Tashizan = {
-    doSubmit: function(a, b) {
+    doSubmit(a, b) {
         var result = a + b;
         return result;
     }
