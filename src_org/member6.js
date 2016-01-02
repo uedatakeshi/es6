@@ -22,9 +22,3 @@ var OneForm = {
     }
 };
 
-var Tashizan = {
-    doSubmit(a, b) {
-        var result = a + b;
-        return result;
-    }
-};
