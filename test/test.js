@@ -4,8 +4,8 @@ QUnit.test( "hello test", function( assert ) {
 });
 
 
-QUnit.test( "form test", function( assert ) {
-  assert.ok( Tashizan.doSubmit(2, 3) == 4, "Passed!"  );
+QUnit.test( "add test", function( assert ) {
+  assert.ok( BPlusA.doCalc(2, 3) == 5, "Passed!"  );
 });
 
 QUnit.test( "set hidden mode test", function( assert ) {
